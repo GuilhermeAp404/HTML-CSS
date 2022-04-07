@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+
+body{
+    background-color: #2b2a2a;
+    display: grid;
+    grid-template-columns: 15vw 70vw 15vw;
+    grid-template-rows: 10vh 1fr 10vh;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    background: url(../Imagens/pattern2.jpg) repeat;
+    background-size: 100%;
+    box-sizing: border-box;
+    border-radius: 25px;
+    min-height: 80vh;
+    width: auto;
+    grid-column: 2;
+    grid-row: 2;
+    border: 2.5px solid white;
+}
+.left{
+    height: 100%;
+    width: 70%;
+    border-radius: 23px 0 0 22px;
+    background-color: rgba(252, 249, 249, 0.1);
+    backdrop-filter: blur(45px);
+    text-align: right;
+}
+
+.left h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 0 60px 20px;
+    text-align: left;
+    text-shadow: 2px 2px 4px #161616;
+}
+
+.left p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin: 20px 20px 50px 20px;
+    text-shadow: 2px 2px 4px #161616;
+    text-align: justify;
+}
+
+.left button{
+    padding: 15px 25px;
+    background:#161616;
+    color:aliceblue;
+    margin-right: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 15px;
+    border: 2px black;
+    border-radius: 50px;
+    transition: 1.35s;
+    text-shadow: 0px 0px 4px aliceblue;
+}
+
+.left button:hover{
+    cursor: pointer;
+    background: aliceblue;
+    color: #161616;
+    text-shadow: 0px 0px 2px #161616;
+}

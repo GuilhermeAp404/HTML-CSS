@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Poppins:ital,wght@0,200;0,300;0,400;1,300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body{
+    font-family: Poppins;
+    background-image: linear-gradient(65deg, #001d7e,#31d3ff);
+    background-size: 200% 200%;
+}
+
+.box{
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    padding: 35px 0;
+}
+
+h1{
+    text-align: center;
+}
+header hr{
+    background-color: white;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: right;
+}
+
+.about{
+    width: 55%;
+    padding: 40px;
+}
+
+.about h2{
+    font-size: 80px;
+    color: white;
+    font-family: 'Erica One', cursive;
+    text-align: left;
+}
+.about p{
+    margin: 20px 0;
+    font-size: 27px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+.about button{
+    width: 14.75rem;
+    padding: 25px;;
+    margin: 10px 0 0 0;
+    border-radius: 40px;
+    border: none;
+    font-family: 'Erica One', cursive;
+    font-size:  25px;
+    color: #001d7e;
+    cursor: pointer;
+	transition: 1s all;
+}
+
+.about button:hover{
+    background: #31d3ff;
+    color:white;
+}
+.banner{
+    text-align: center;
+    width: 45%;
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.second-content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+.second-content .card-row{
+    text-align: center;
+    padding: 30px 30px;
+}
+.second-content .card-item{
+    display: inline-block;
+    height: 325px;
+    text-align: left;
+    vertical-align: top;
+    padding: 1.5rem;
+    background: #001d7e;
+    width: 15rem;
+    margin: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #31d3ff;
+    border-radius: 10px;
+}
+
+.card-item h3{
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 23px;
+    padding: 15px 0;
+}
+
+.card-item:hover p{
+    font-size:  19px;
+}
+
+
+footer{
+    text-align: center;
+}
+
+footer hr{
+    width: 960px;
+}
+
+footer p{
+    margin: 40px 0 40px;
+}
