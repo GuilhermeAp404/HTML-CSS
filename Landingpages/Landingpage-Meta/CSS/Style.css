@@ -79,15 +79,14 @@ header hr{
 
 .second-content{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 60px auto;
     text-align: left;
 }
-.second-content .card-row{
-    text-align: left;
-    
+.card-row{
+    margin: 0 auto;
     padding: 30px 30px;
 }
-.second-content .card-item{
+.card-item{
     display: inline-block;
     height: 325px;
     text-align: left;

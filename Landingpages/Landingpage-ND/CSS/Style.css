@@ -27,6 +27,7 @@ body{
     border-radius: 23px 0 0 22px;
     background-color: rgba(252, 249, 249, 0.1);
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
     text-align: right;
 }
 
